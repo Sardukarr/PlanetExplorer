@@ -79,4 +79,13 @@ public class TestPlanetExplorer {
 		assertEquals("(99,0,N)",exp.executeCommand("b"));
 		
 	}
+	public void SpawningAfterFewCommand() {
+		//Arrange
+		
+		//Act
+	
+		//Assert
+		assertEquals("(98,99,S)",exp.executeCommand("fflfflfff"));
+		
+	}
 }

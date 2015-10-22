@@ -227,3 +227,12 @@ EditAction 1445507397243 TestPlanetExplorer.java 1325 7 7 7
 UnitTestCaseAction 1445507397538 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445507397538 TestPlanetExplorer OK
 EditAction 1445507426773 TestPlanetExplorer.java 1333 7 7 7
+UnitTestCaseAction 1445507427078 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507427078 TestPlanetExplorer OK
+RefactoringAction 1445507490559 TestPlanetExplorer.java ADD void SpawningAtOtherSide()/2 METHOD
+RefactoringAction 1445507495075 TestPlanetExplorer.java RENAME SpawningAtOtherSide()/2=>void Spawningafter() METHOD
+RefactoringAction 1445507496591 TestPlanetExplorer.java RENAME Spawningafter()=>void Spawning() METHOD
+RefactoringAction 1445507498608 TestPlanetExplorer.java RENAME Spawning()=>void SpawningAfter() METHOD
+RefactoringAction 1445507500624 TestPlanetExplorer.java RENAME SpawningAfter()=>void SpawningAfterFew() METHOD
+RefactoringAction 1445507502141 TestPlanetExplorer.java RENAME SpawningAfterFew()=>void SpawningAfterFewCommand() METHOD
+EditAction 1445507624674 TestPlanetExplorer.java 1486 8 8 8
