@@ -7,8 +7,14 @@ public class PlanetExplorer {
 	int posX;
 	int posY;
 	char face;
-	public enum directions{N,E,S,W}
-	
+	//public enum directions{
+	//	N(1),E(2),S(3),W(4);
+		// private int value;
+
+     //   private directions(int value) {
+          //      this.value = value;
+	//}
+	//directions face1;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -48,9 +54,27 @@ public class PlanetExplorer {
 		switch(where)
 		{
 		case 'l':
-			face='E';
+			left();
 			break;
 		}
 	}
 	
+	private void left()
+	{
+		switch(face)
+		{
+		case 'N': 
+			face='E';
+			break;
+		case 'E':
+			face='S';
+			break;
+		case 'S':
+			face='W';
+			break;
+		case 'W':
+			face='N';
+			break;
+		}
+	}
 }

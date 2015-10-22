@@ -75,3 +75,45 @@ RefactoringAction 1445504843177 PlanetExplorer.java ADD directions E FIELD
 RefactoringAction 1445504845195 PlanetExplorer.java ADD directions S FIELD
 RefactoringAction 1445504845195 PlanetExplorer.java ADD directions W FIELD
 EditAction 1445505125236 PlanetExplorer.java 1721 3 8 0
+UnitTestCaseAction 1445505130956 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445505130957 TestPlanetExplorer OK
+RefactoringAction 1445505163921 PlanetExplorer.java ADD directions Face FIELD
+RefactoringAction 1445505176502 PlanetExplorer.java RENAME Face=>directions face/2 FIELD
+RefactoringAction 1445505192020 PlanetExplorer.java REMOVE face/2 FIELD
+RefactoringAction 1445505234739 PlanetExplorer.java REMOVE N FIELD
+RefactoringAction 1445505242789 PlanetExplorer.java ADD directions N FIELD
+RefactoringAction 1445505829609 PlanetExplorer.java ADD directions directions FIELD
+RefactoringAction 1445505835132 PlanetExplorer.java ADD int value FIELD
+RefactoringAction 1445505835133 PlanetExplorer.java ADD void Currency(int) METHOD
+RefactoringAction 1445505835134 PlanetExplorer.java ADD directions face FIELD
+RefactoringAction 1445505835134 PlanetExplorer.java ADD void PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445505835135 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445505835135 PlanetExplorer.java ADD void move(char) METHOD
+RefactoringAction 1445505840654 PlanetExplorer.java ADD directions face FIELD
+RefactoringAction 1445505840655 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445505840655 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445505840656 PlanetExplorer.java ADD void move(char) METHOD
+RefactoringAction 1445505842674 PlanetExplorer.java REMOVE directions FIELD
+RefactoringAction 1445505843696 PlanetExplorer.java ADD int value FIELD
+RefactoringAction 1445505843697 PlanetExplorer.java ADD void Currency(int) METHOD
+RefactoringAction 1445505843698 PlanetExplorer.java ADD directions face FIELD
+RefactoringAction 1445505843698 PlanetExplorer.java ADD void PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445505843699 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445505843699 PlanetExplorer.java ADD void move(char) METHOD
+RefactoringAction 1445505854724 PlanetExplorer.java RENAME Currency(int)=>directions(int) METHOD
+RefactoringAction 1445505959841 PlanetExplorer.java RENAME face=>directions face() METHOD
+RefactoringAction 1445505962860 PlanetExplorer.java RENAME face()=>directions face FIELD
+RefactoringAction 1445505970400 PlanetExplorer.java RENAME face=>directions face1 FIELD
+RefactoringAction 1445505973416 PlanetExplorer.java RENAME directions=>directions face1 FIELD
+RefactoringAction 1445505974930 PlanetExplorer.java ADD char face FIELD
+RefactoringAction 1445505978447 PlanetExplorer.java REMOVE face1 FIELD
+RefactoringAction 1445505989985 PlanetExplorer.java RENAME directions=>void directions(int) METHOD
+RefactoringAction 1445505991502 PlanetExplorer.java REMOVE directions(int) METHOD
+RefactoringAction 1445505994534 PlanetExplorer.java ADD char face FIELD
+RefactoringAction 1445506000551 PlanetExplorer.java REMOVE face1 FIELD
+RefactoringAction 1445506056639 PlanetExplorer.java ADD void direction FIELD
+RefactoringAction 1445506057655 PlanetExplorer.java RENAME direction=>void directions FIELD
+RefactoringAction 1445506063172 PlanetExplorer.java RENAME directions=>void directions() METHOD
+RefactoringAction 1445506075188 PlanetExplorer.java RENAME directions()=>void Left() METHOD
+RefactoringAction 1445506242898 PlanetExplorer.java RENAME Left()=>void left() METHOD
+EditAction 1445506244363 PlanetExplorer.java 2082 4 9 0
