@@ -144,3 +144,7 @@ RefactoringAction 1445506473928 TestPlanetExplorer.java RENAME MovingForward=>vo
 RefactoringAction 1445506480443 TestPlanetExplorer.java RENAME TurningRight()/2=>void Moving() METHOD
 RefactoringAction 1445506482456 TestPlanetExplorer.java RENAME Moving()=>void MovingForward() METHOD
 EditAction 1445506498456 TestPlanetExplorer.java 872 4 4 4
+UnitTestCaseAction 1445506517537 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506517537 TestPlanetExplorer FAIL
+RefactoringAction 1445506566289 PlanetExplorer.java ADD void forward() METHOD
+EditAction 1445506681668 PlanetExplorer.java 2574 6 11 0
