@@ -6,8 +6,8 @@ import java.util.List;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID: 138
+// Finish time: 13:32
 
 
 
@@ -151,7 +151,7 @@ public class PlanetExplorer {
 		case 'N': 
 			posX--;
 			if(checkForObstacles())
-				
+			{}	
 			break;
 		case 'E':
 			posY--;
