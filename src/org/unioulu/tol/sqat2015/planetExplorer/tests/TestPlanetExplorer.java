@@ -39,4 +39,14 @@ public class TestPlanetExplorer {
 			assertEquals("(0,0,W)",exp.executeCommand("r"));
 			
 		}
+	@Test
+	public void MovingForward() {
+			//Arrange
+			
+			//Act
+		
+			//Assert
+			assertEquals("(1,0,N)",exp.executeCommand("f"));
+			
+		}
 }

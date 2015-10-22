@@ -25,3 +25,6 @@
 1445506252519 regression 1 0 true
 1445506385737 test-first 3 125 true
 1445506385738 test-first 3 125 true
+1445506437008 refactoring 1A 22 true
+1445506437009 refactoring 3 22 true
+1445506437010 refactoring 3 22 true

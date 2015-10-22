@@ -137,3 +137,10 @@ UnitTestCaseAction 1445506385736 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445506385737 TestPlanetExplorer OK
 RefactoringAction 1445506414626 TestPlanetExplorer.java ADD PlanetExplorer exp FIELD
 EditAction 1445506436684 TestPlanetExplorer.java 723 3 3 3
+UnitTestCaseAction 1445506437007 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506437008 TestPlanetExplorer OK
+RefactoringAction 1445506464414 TestPlanetExplorer.java ADD void MovingForward FIELD
+RefactoringAction 1445506473928 TestPlanetExplorer.java RENAME MovingForward=>void TurningRight()/2 METHOD
+RefactoringAction 1445506480443 TestPlanetExplorer.java RENAME TurningRight()/2=>void Moving() METHOD
+RefactoringAction 1445506482456 TestPlanetExplorer.java RENAME Moving()=>void MovingForward() METHOD
+EditAction 1445506498456 TestPlanetExplorer.java 872 4 4 4
