@@ -62,6 +62,9 @@ public class PlanetExplorer {
 		case 'f':
 			forward();
 			break;
+		case 'b':
+			backward();
+			break;
 		}
 	}
 	
@@ -116,6 +119,24 @@ public class PlanetExplorer {
 			break;
 		case 'W':
 			posY--;
+			break;
+		}
+	}
+	private void backward()
+	{
+		switch(face)
+		{
+		case 'N': 
+			posX--;
+			break;
+		case 'E':
+			posY--;
+			break;
+		case 'S':
+			posX++;
+			break;
+		case 'W':
+			posY++;
 			break;
 		}
 	}
