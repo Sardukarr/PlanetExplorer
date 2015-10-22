@@ -34,3 +34,11 @@ UnitTestCaseAction 1445503464002 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445503464003 TestPlanetExplorer FAIL
 RefactoringAction 1445503472843 TestPlanetExplorer.java REMOVE BeginingPosition1() METHOD
 EditAction 1445503473385 TestPlanetExplorer.java 428 1 2 1
+UnitTestCaseAction 1445503475907 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445503475907 TestPlanetExplorer FAIL
+RefactoringAction 1445503502681 PlanetExplorer.java ADD int po FIELD
+RefactoringAction 1445503504196 PlanetExplorer.java RENAME po=>int posX FIELD
+RefactoringAction 1445503509722 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1445503510736 PlanetExplorer.java RENAME pos=>int posY FIELD
+RefactoringAction 1445503524798 PlanetExplorer.java ADD char face FIELD
+EditAction 1445503869344 PlanetExplorer.java 1472 2 5 0
