@@ -11,3 +11,11 @@ RefactoringAction 1445503019220 TestPlanetExplorer.java RENAME <initializer /1>=
 RefactoringAction 1445503021737 TestPlanetExplorer.java RENAME Begining()=>void BeginingPosition() METHOD
 RefactoringAction 1445503069352 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445503364599 TestPlanetExplorer.java 512 1 2 1
+CompilationAction 1445503364773 TestPlanetExplorer.java
+UnitTestCaseAction 1445503367035 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445503367038 TestPlanetExplorer FAIL
+RefactoringAction 1445503407373 TestPlanetExplorer.java REMOVE import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1445503407374 TestPlanetExplorer.java REMOVE import org.unioulu.tol.sqat.bsc.Frame IMPORT
+UnitTestCaseAction 1445503410519 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445503410519 TestPlanetExplorer FAIL
+EditAction 1445503433925 TestPlanetExplorer.java 426 1 2 1

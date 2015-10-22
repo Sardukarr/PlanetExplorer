@@ -3,8 +3,7 @@ package org.unioulu.tol.sqat2015.planetExplorer.tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import org.unioulu.tol.sqat.bsc.BowlingGame;
-import org.unioulu.tol.sqat.bsc.Frame;
+
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
@@ -16,7 +15,7 @@ public class TestPlanetExplorer {
 			//Act
 		
 			//Assert
-			assertEquals("(0,0,N)",exp.executeCommand(""),0);
+			assertEquals("(0,0,N)",exp.executeCommand(""));
 			
 		}
 }
