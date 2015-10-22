@@ -56,6 +56,9 @@ public class PlanetExplorer {
 		case 'l':
 			left();
 			break;
+		case 'r':
+			right();
+			break;
 		}
 	}
 	
@@ -77,4 +80,23 @@ public class PlanetExplorer {
 			break;
 		}
 	}
+	private void right()
+	{
+		switch(face)
+		{
+		case 'N': 
+			face='W';
+			break;
+		case 'E':
+			face='N';
+			break;
+		case 'S':
+			face='E';
+			break;
+		case 'W':
+			face='S';
+			break;
+		}
+	}
+}
 }
