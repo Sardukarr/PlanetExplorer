@@ -69,6 +69,7 @@ public class TestPlanetExplorer {
 			assertEquals("(99,0,N)",exp.executeCommand("b"));
 			
 		}
+	@Test
 	public void movingTest() {
 		//Arrange
 		

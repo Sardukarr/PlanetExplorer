@@ -224,3 +224,6 @@ RefactoringAction 1445507364905 TestPlanetExplorer.java ADD void SpawningAtOther
 RefactoringAction 1445507369921 TestPlanetExplorer.java RENAME SpawningAtOtherSide()/2=>void moving() METHOD
 RefactoringAction 1445507371937 TestPlanetExplorer.java RENAME moving()=>void movingTest() METHOD
 EditAction 1445507397243 TestPlanetExplorer.java 1325 7 7 7
+UnitTestCaseAction 1445507397538 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507397538 TestPlanetExplorer OK
+EditAction 1445507426773 TestPlanetExplorer.java 1333 7 7 7

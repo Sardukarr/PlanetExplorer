@@ -36,3 +36,5 @@
 1445506942124 regression 1 24 true
 1445507318164 test-first 3 330 true
 1445507318165 test-first 3 330 true
+1445507397538 test-addition 1 32 true
+1445507397539 test-addition 1 32 true
