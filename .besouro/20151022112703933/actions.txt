@@ -52,3 +52,26 @@ RefactoringAction 1445503915509 TestPlanetExplorer.java RENAME ChengingDirection
 RefactoringAction 1445503950025 TestPlanetExplorer.java RENAME ChengingDirectionOfFace()=><initializer /1> null
 RefactoringAction 1445503955539 TestPlanetExplorer.java RENAME <initializer /1>=>void TurningLeft() METHOD
 EditAction 1445504001460 TestPlanetExplorer.java 621 2 4 2
+UnitTestCaseAction 1445504001785 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445504001785 TestPlanetExplorer FAIL
+RefactoringAction 1445504424442 PlanetExplorer.java ADD void St FIELD
+RefactoringAction 1445504426957 PlanetExplorer.java REMOVE St FIELD
+RefactoringAction 1445504449472 PlanetExplorer.java ADD void ex FIELD
+RefactoringAction 1445504450988 PlanetExplorer.java REMOVE ex FIELD
+RefactoringAction 1445504455004 PlanetExplorer.java ADD void C FIELD
+RefactoringAction 1445504457019 PlanetExplorer.java REMOVE C FIELD
+RefactoringAction 1445504460046 PlanetExplorer.java ADD void st FIELD
+RefactoringAction 1445504463060 PlanetExplorer.java REMOVE st FIELD
+RefactoringAction 1445504466074 PlanetExplorer.java ADD void step FIELD
+RefactoringAction 1445504470090 PlanetExplorer.java REMOVE step FIELD
+RefactoringAction 1445504482106 PlanetExplorer.java ADD void Mo FIELD
+RefactoringAction 1445504483121 PlanetExplorer.java RENAME Mo=>void Move FIELD
+RefactoringAction 1445504486136 PlanetExplorer.java RENAME Move=>void Move() METHOD
+RefactoringAction 1445504491666 PlanetExplorer.java RENAME Move()=>void Move(char) METHOD
+RefactoringAction 1445504529801 PlanetExplorer.java RENAME Move(char)=>void move(char) METHOD
+RefactoringAction 1445504770925 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>enum directions null
+RefactoringAction 1445504839660 PlanetExplorer.java ADD directions N FIELD
+RefactoringAction 1445504843177 PlanetExplorer.java ADD directions E FIELD
+RefactoringAction 1445504845195 PlanetExplorer.java ADD directions S FIELD
+RefactoringAction 1445504845195 PlanetExplorer.java ADD directions W FIELD
+EditAction 1445505125236 PlanetExplorer.java 1721 3 8 0

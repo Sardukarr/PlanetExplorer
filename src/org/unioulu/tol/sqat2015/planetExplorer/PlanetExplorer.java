@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	int posX;
 	int posY;
 	char face;
-	
+	public enum directions{N,E,S,W}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -32,8 +32,25 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		char step;
+		for(int i=0;i<command.length();i++)
+		{
+			step=command.charAt(i);
+			move(step);
+		}
 		
 		String location="("+posX+","+posY+","+face+")";
 		return location;
 	}
+	
+	private void move(char where)
+	{
+		switch(where)
+		{
+		case 'l':
+			face='E';
+			break;
+		}
+	}
+	
 }
