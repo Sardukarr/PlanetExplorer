@@ -1,0 +1,13 @@
+FileOpenedAction 1445502424210 TestPlanetExplorer.java 228 1 1 0
+FileOpenedAction 1445502956162 TestBowlingScoreCalculator.java 4004 14 75 13
+RefactoringAction 1445502979424 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1445502979425 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1445502982945 TestPlanetExplorer.java REMOVE testFrameAdd() METHOD
+RefactoringAction 1445503010659 TestPlanetExplorer.java RENAME test()=>void testP() METHOD
+RefactoringAction 1445503011673 TestPlanetExplorer.java RENAME testP()=>void test() METHOD
+RefactoringAction 1445503014189 TestPlanetExplorer.java RENAME test()=>void testBeginin() METHOD
+RefactoringAction 1445503016707 TestPlanetExplorer.java RENAME testBeginin()=><initializer /1> null
+RefactoringAction 1445503019220 TestPlanetExplorer.java RENAME <initializer /1>=>void Begining() METHOD
+RefactoringAction 1445503021737 TestPlanetExplorer.java RENAME Begining()=>void BeginingPosition() METHOD
+RefactoringAction 1445503069352 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1445503364599 TestPlanetExplorer.java 512 1 2 1
