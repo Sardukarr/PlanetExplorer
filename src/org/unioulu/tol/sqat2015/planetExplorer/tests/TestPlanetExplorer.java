@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
-	PlanetExplorer exp = new PlanetExplorer(100,100,"");
+	PlanetExplorer exp = new PlanetExplorer(100,100,"(0,1)");
 	
 	@Test
 	public void BeginingPosition() {

@@ -271,3 +271,4 @@ RefactoringAction 1445509820643 PlanetExplorer.java ADD String f FIELD
 RefactoringAction 1445509822166 PlanetExplorer.java RENAME f=>String found FIELD
 RefactoringAction 1445509824188 PlanetExplorer.java RENAME found=>String foundObstacles FIELD
 EditAction 1445509911693 PlanetExplorer.java 3662 9 18 0
+EditAction 1445509911804 TestPlanetExplorer.java 1647 9 9 9
