@@ -274,3 +274,9 @@ EditAction 1445509911693 PlanetExplorer.java 3662 9 18 0
 EditAction 1445509911804 TestPlanetExplorer.java 1647 9 9 9
 CompilationAction 1445509911918 PlanetExplorer.java
 EditAction 1445509951232 PlanetExplorer.java 3674 9 18 0
+CompilationAction 1445509951387 PlanetExplorer.java
+RefactoringAction 1445509957746 PlanetExplorer.java REMOVE import org.unioulu.tol.sqat.bsc.Frame IMPORT
+UnitTestCaseAction 1445509959546 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509959546 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445510027504 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445510027504 TestPlanetExplorer FAIL

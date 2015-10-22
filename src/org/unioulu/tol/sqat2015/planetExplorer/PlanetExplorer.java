@@ -3,7 +3,6 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.unioulu.tol.sqat.bsc.Frame;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 138
