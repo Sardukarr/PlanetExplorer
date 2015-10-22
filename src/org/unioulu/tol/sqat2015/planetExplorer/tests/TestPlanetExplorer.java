@@ -18,4 +18,14 @@ public class TestPlanetExplorer {
 			assertEquals("(0,0,N)",exp.executeCommand(""));
 			
 		}
+	@Test
+	public void BeginingPosition1() {
+			//Arrange
+			PlanetExplorer exp = new PlanetExplorer(1,1,"");
+			//Act
+		
+			//Assert
+			assertEquals("(0,0,N)",exp.executeCommand(""));
+			
+		}
 }
