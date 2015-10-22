@@ -46,7 +46,7 @@ public class TestPlanetExplorer {
 			//Act
 		
 			//Assert
-			assertEquals("(1,0,N)",exp.executeCommand("f"));
+			assertEquals("(2,2,E)",exp.executeCommand("ffrff"));
 			
 		}
 	@Test
@@ -69,4 +69,13 @@ public class TestPlanetExplorer {
 			assertEquals("(99,0,N)",exp.executeCommand("b"));
 			
 		}
+	public void movingTest() {
+		//Arrange
+		
+		//Act
+	
+		//Assert
+		assertEquals("(99,0,N)",exp.executeCommand("b"));
+		
+	}
 }

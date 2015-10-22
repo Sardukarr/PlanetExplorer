@@ -198,3 +198,29 @@ RefactoringAction 1445507220713 PlanetExplorer.java REMOVE left() METHOD
 RefactoringAction 1445507220713 PlanetExplorer.java REMOVE forward() METHOD
 RefactoringAction 1445507220714 PlanetExplorer.java REMOVE right() METHOD
 EditAction 1445507280605 PlanetExplorer.java 2941 4 9 0
+CompilationAction 1445507280725 PlanetExplorer.java
+CompilationAction 1445507280725 PlanetExplorer.java
+CompilationAction 1445507280725 PlanetExplorer.java
+CompilationAction 1445507280726 PlanetExplorer.java
+CompilationAction 1445507280726 PlanetExplorer.java
+CompilationAction 1445507280726 PlanetExplorer.java
+CompilationAction 1445507280726 PlanetExplorer.java
+CompilationAction 1445507280726 PlanetExplorer.java
+RefactoringAction 1445507306070 PlanetExplorer.java ADD void right() METHOD
+RefactoringAction 1445507306071 PlanetExplorer.java ADD void left() METHOD
+RefactoringAction 1445507306071 PlanetExplorer.java ADD void forward() METHOD
+RefactoringAction 1445507306071 PlanetExplorer.java ADD void backward() METHOD
+CompilationAction 1445507317936 PlanetExplorer.java
+CompilationAction 1445507317936 PlanetExplorer.java
+CompilationAction 1445507317936 PlanetExplorer.java
+CompilationAction 1445507317937 PlanetExplorer.java
+CompilationAction 1445507317937 PlanetExplorer.java
+CompilationAction 1445507317937 PlanetExplorer.java
+CompilationAction 1445507317937 PlanetExplorer.java
+CompilationAction 1445507317938 PlanetExplorer.java
+UnitTestCaseAction 1445507318164 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507318164 TestPlanetExplorer OK
+RefactoringAction 1445507364905 TestPlanetExplorer.java ADD void SpawningAtOtherSide()/2 METHOD
+RefactoringAction 1445507369921 TestPlanetExplorer.java RENAME SpawningAtOtherSide()/2=>void moving() METHOD
+RefactoringAction 1445507371937 TestPlanetExplorer.java RENAME moving()=>void movingTest() METHOD
+EditAction 1445507397243 TestPlanetExplorer.java 1325 7 7 7

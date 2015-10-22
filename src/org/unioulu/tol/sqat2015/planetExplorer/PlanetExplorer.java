@@ -67,7 +67,7 @@ public class PlanetExplorer {
 			break;
 		}
 		checkPos();
-	
+	}
 
 	private void right()
 	{
@@ -142,7 +142,6 @@ public class PlanetExplorer {
 		}
 	}
 	
-}
 	
 	private void checkPos() {
 		if(posX<0)
