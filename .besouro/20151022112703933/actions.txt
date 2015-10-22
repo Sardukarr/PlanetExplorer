@@ -176,3 +176,12 @@ RefactoringAction 1445506917687 PlanetExplorer.java RENAME right()=>void left()/
 RefactoringAction 1445506921707 PlanetExplorer.java RENAME left()/2=>void right() METHOD
 EditAction 1445506941705 PlanetExplorer.java 2819 7 12 0
 EditAction 1445506941798 TestPlanetExplorer.java 1034 5 5 5
+UnitTestCaseAction 1445506942122 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506942122 TestPlanetExplorer OK
+RefactoringAction 1445506988071 TestPlanetExplorer.java ADD void MovingBacwardAfter2Turns()/2 METHOD
+RefactoringAction 1445507009084 TestPlanetExplorer.java RENAME MovingBacwardAfter2Turns()/2=>void spa() METHOD
+RefactoringAction 1445507010598 TestPlanetExplorer.java RENAME spa()=>void spawnin() METHOD
+RefactoringAction 1445507014613 TestPlanetExplorer.java RENAME spawnin()=>void Spawning() METHOD
+RefactoringAction 1445507015625 TestPlanetExplorer.java RENAME Spawning()=>void SpawningAt() METHOD
+RefactoringAction 1445507023641 TestPlanetExplorer.java RENAME SpawningAt()=>void SpawningAtOtherSide() METHOD
+EditAction 1445507116033 TestPlanetExplorer.java 1190 6 6 6

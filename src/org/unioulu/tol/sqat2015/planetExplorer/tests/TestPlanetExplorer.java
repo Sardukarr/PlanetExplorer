@@ -59,4 +59,14 @@ public class TestPlanetExplorer {
 			assertEquals("(1,0,S)",exp.executeCommand("rrb"));
 			
 		}
+	@Test
+	public void SpawningAtOtherSide() {
+			//Arrange
+			
+			//Act
+		
+			//Assert
+			assertEquals("(99,0,N)",exp.executeCommand("b"));
+			
+		}
 }
