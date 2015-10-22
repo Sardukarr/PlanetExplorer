@@ -236,3 +236,6 @@ RefactoringAction 1445507498608 TestPlanetExplorer.java RENAME Spawning()=>void 
 RefactoringAction 1445507500624 TestPlanetExplorer.java RENAME SpawningAfter()=>void SpawningAfterFew() METHOD
 RefactoringAction 1445507502141 TestPlanetExplorer.java RENAME SpawningAfterFew()=>void SpawningAfterFewCommand() METHOD
 EditAction 1445507624674 TestPlanetExplorer.java 1486 8 8 8
+UnitTestCaseAction 1445507625795 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507625795 TestPlanetExplorer OK
+EditAction 1445507636799 TestPlanetExplorer.java 1494 8 8 8
