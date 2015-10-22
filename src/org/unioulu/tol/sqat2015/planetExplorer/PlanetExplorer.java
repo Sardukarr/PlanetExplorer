@@ -68,7 +68,7 @@ public class PlanetExplorer {
 		}
 	}
 	
-	private void left()
+	private void right()
 	{
 		switch(face)
 		{
@@ -86,7 +86,7 @@ public class PlanetExplorer {
 			break;
 		}
 	}
-	private void right()
+	private void left()
 	{
 		switch(face)
 		{
