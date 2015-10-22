@@ -42,3 +42,13 @@ RefactoringAction 1445503509722 PlanetExplorer.java ADD int pos FIELD
 RefactoringAction 1445503510736 PlanetExplorer.java RENAME pos=>int posY FIELD
 RefactoringAction 1445503524798 PlanetExplorer.java ADD char face FIELD
 EditAction 1445503869344 PlanetExplorer.java 1472 2 5 0
+UnitTestCaseAction 1445503874352 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503874352 TestPlanetExplorer OK
+RefactoringAction 1445503884948 TestPlanetExplorer.java ADD void BeginingPosition()/2 METHOD
+RefactoringAction 1445503890463 TestPlanetExplorer.java RENAME BeginingPosition()/2=>void Chengin() METHOD
+RefactoringAction 1445503891978 TestPlanetExplorer.java RENAME Chengin()=>void Chenging() METHOD
+RefactoringAction 1445503912994 TestPlanetExplorer.java RENAME Chenging()=>void ChengingDirectionOf() METHOD
+RefactoringAction 1445503915509 TestPlanetExplorer.java RENAME ChengingDirectionOf()=>void ChengingDirectionOfFace() METHOD
+RefactoringAction 1445503950025 TestPlanetExplorer.java RENAME ChengingDirectionOfFace()=><initializer /1> null
+RefactoringAction 1445503955539 TestPlanetExplorer.java RENAME <initializer /1>=>void TurningLeft() METHOD
+EditAction 1445504001460 TestPlanetExplorer.java 621 2 4 2
