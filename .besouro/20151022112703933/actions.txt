@@ -167,3 +167,6 @@ UnitTestSessionAction 1445506779135 TestPlanetExplorer FAIL
 RefactoringAction 1445506837028 PlanetExplorer.java ADD void forward()/2 METHOD
 RefactoringAction 1445506842548 PlanetExplorer.java RENAME forward()/2=>void backward() METHOD
 EditAction 1445506876592 PlanetExplorer.java 2819 7 12 0
+UnitTestCaseAction 1445506876914 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506876915 TestPlanetExplorer FAIL
+EditAction 1445506895625 TestPlanetExplorer.java 1034 5 5 5

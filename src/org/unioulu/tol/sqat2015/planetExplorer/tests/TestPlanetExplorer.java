@@ -56,7 +56,7 @@ public class TestPlanetExplorer {
 			//Act
 		
 			//Assert
-			assertEquals("(1,0,N)",exp.executeCommand("rrb"));
+			assertEquals("(1,0,S)",exp.executeCommand("rrb"));
 			
 		}
 }
