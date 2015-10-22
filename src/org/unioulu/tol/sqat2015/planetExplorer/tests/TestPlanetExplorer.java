@@ -7,11 +7,12 @@ import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
-
+	PlanetExplorer exp = new PlanetExplorer(100,100,"");
+	
 	@Test
 	public void BeginingPosition() {
 			//Arrange
-			PlanetExplorer exp = new PlanetExplorer(1,1,"");
+
 			//Act
 		
 			//Assert
@@ -21,7 +22,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void TurningLeft() {
 			//Arrange
-			PlanetExplorer exp = new PlanetExplorer(1,1,"");
+
 			//Act
 		
 			//Assert
@@ -31,7 +32,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void TurningRight() {
 			//Arrange
-			PlanetExplorer exp = new PlanetExplorer(1,1,"");
+			
 			//Act
 		
 			//Assert

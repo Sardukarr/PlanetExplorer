@@ -129,3 +129,11 @@ UnitTestSessionAction 1445506281698 TestPlanetExplorer FAIL
 RefactoringAction 1445506326593 PlanetExplorer.java ADD void left()/2 METHOD
 RefactoringAction 1445506331111 PlanetExplorer.java RENAME left()/2=>void right() METHOD
 EditAction 1445506369937 PlanetExplorer.java 2332 5 10 0
+CompilationAction 1445506370043 PlanetExplorer.java
+UnitTestCaseAction 1445506371663 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506371663 TestPlanetExplorer FAIL
+CompilationAction 1445506385506 PlanetExplorer.java
+UnitTestCaseAction 1445506385736 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506385737 TestPlanetExplorer OK
+RefactoringAction 1445506414626 TestPlanetExplorer.java ADD PlanetExplorer exp FIELD
+EditAction 1445506436684 TestPlanetExplorer.java 723 3 3 3
