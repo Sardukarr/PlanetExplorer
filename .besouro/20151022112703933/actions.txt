@@ -185,3 +185,16 @@ RefactoringAction 1445507014613 TestPlanetExplorer.java RENAME spawnin()=>void S
 RefactoringAction 1445507015625 TestPlanetExplorer.java RENAME Spawning()=>void SpawningAt() METHOD
 RefactoringAction 1445507023641 TestPlanetExplorer.java RENAME SpawningAt()=>void SpawningAtOtherSide() METHOD
 EditAction 1445507116033 TestPlanetExplorer.java 1190 6 6 6
+UnitTestCaseAction 1445507116349 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445507116350 TestPlanetExplorer FAIL
+RefactoringAction 1445507174671 PlanetExplorer.java ADD void checkPos() METHOD
+RefactoringAction 1445507180443 PlanetExplorer.java REMOVE checkPos() METHOD
+RefactoringAction 1445507219686 PlanetExplorer.java ADD void right() METHOD
+RefactoringAction 1445507219687 PlanetExplorer.java ADD void left() METHOD
+RefactoringAction 1445507219688 PlanetExplorer.java ADD void forward() METHOD
+RefactoringAction 1445507219688 PlanetExplorer.java ADD void backward() METHOD
+RefactoringAction 1445507220712 PlanetExplorer.java REMOVE backward() METHOD
+RefactoringAction 1445507220713 PlanetExplorer.java REMOVE left() METHOD
+RefactoringAction 1445507220713 PlanetExplorer.java REMOVE forward() METHOD
+RefactoringAction 1445507220714 PlanetExplorer.java REMOVE right() METHOD
+EditAction 1445507280605 PlanetExplorer.java 2941 4 9 0

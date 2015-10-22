@@ -66,8 +66,9 @@ public class PlanetExplorer {
 			backward();
 			break;
 		}
-	}
+		checkPos();
 	
+
 	private void right()
 	{
 		switch(face)
@@ -139,6 +140,15 @@ public class PlanetExplorer {
 			posY++;
 			break;
 		}
+	}
+	
+}
+	
+	private void checkPos() {
+		if(posX<0)
+		{posX=posX+100;}
+		if(posY<0)
+		{posY=posY+100;}
 	}
 }
 
