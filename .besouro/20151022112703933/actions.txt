@@ -117,3 +117,10 @@ RefactoringAction 1445506063172 PlanetExplorer.java RENAME directions=>void dire
 RefactoringAction 1445506075188 PlanetExplorer.java RENAME directions()=>void Left() METHOD
 RefactoringAction 1445506242898 PlanetExplorer.java RENAME Left()=>void left() METHOD
 EditAction 1445506244363 PlanetExplorer.java 2082 4 9 0
+UnitTestCaseAction 1445506247061 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506247061 TestPlanetExplorer OK
+UnitTestCaseAction 1445506252519 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506252519 TestPlanetExplorer OK
+RefactoringAction 1445506260224 TestPlanetExplorer.java ADD void TurningLeft()/2 METHOD
+RefactoringAction 1445506265738 TestPlanetExplorer.java RENAME TurningLeft()/2=>void TurningRight() METHOD
+EditAction 1445506281358 TestPlanetExplorer.java 817 3 6 3

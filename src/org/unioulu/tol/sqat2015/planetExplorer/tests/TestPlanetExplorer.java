@@ -28,4 +28,14 @@ public class TestPlanetExplorer {
 			assertEquals("(0,0,E)",exp.executeCommand("l"));
 			
 		}
+	@Test
+	public void TurningRight() {
+			//Arrange
+			PlanetExplorer exp = new PlanetExplorer(1,1,"");
+			//Act
+		
+			//Assert
+			assertEquals("(0,0,W)",exp.executeCommand("r"));
+			
+		}
 }
