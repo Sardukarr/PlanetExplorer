@@ -242,3 +242,11 @@ EditAction 1445507636799 TestPlanetExplorer.java 1494 8 8 8
 UnitTestCaseAction 1445507637123 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445507637124 TestPlanetExplorer FAIL
 EditAction 1445507706741 TestPlanetExplorer.java 1494 8 8 8
+UnitTestCaseAction 1445507707032 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507707033 TestPlanetExplorer OK
+RefactoringAction 1445507747549 TestPlanetExplorer.java ADD void SpawningAfterFewCommand()/2 METHOD
+RefactoringAction 1445507751566 TestPlanetExplorer.java RENAME SpawningAfterFewCommand()/2=>void F() METHOD
+RefactoringAction 1445507754083 TestPlanetExplorer.java RENAME F()=>void Fac() METHOD
+RefactoringAction 1445507755099 TestPlanetExplorer.java RENAME Fac()=>void Facing() METHOD
+RefactoringAction 1445507761617 TestPlanetExplorer.java RENAME Facing()=>void FacingObstacle() METHOD
+EditAction 1445507901548 TestPlanetExplorer.java 1642 9 9 9

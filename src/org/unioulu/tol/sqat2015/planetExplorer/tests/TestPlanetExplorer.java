@@ -89,4 +89,14 @@ public class TestPlanetExplorer {
 		assertEquals("(99,98,S)",exp.executeCommand("fflfflfff"));
 		
 	}
+	@Test
+	public void FacingObstacle() {
+		//Arrange
+		
+		//Act
+	
+		//Assert
+		assertEquals("(0,0,E)(0,1)",exp.executeCommand("rf"));
+		
+	}
 }
