@@ -86,7 +86,7 @@ public class TestPlanetExplorer {
 		//Act
 	
 		//Assert
-		assertEquals("(98,99,S)",exp.executeCommand("fflfflfff"));
+		assertEquals("(99,98,S)",exp.executeCommand("fflfflfff"));
 		
 	}
 }
