@@ -26,7 +26,7 @@ public class TestPlanetExplorer {
 			//Act
 		
 			//Assert
-			assertEquals("(0,0,E)",exp.executeCommand("l"));
+			assertEquals("(0,0,W)",exp.executeCommand("l"));
 			
 		}
 	@Test
@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 			//Act
 		
 			//Assert
-			assertEquals("(0,0,W)",exp.executeCommand("r"));
+			assertEquals("(0,0,E)",exp.executeCommand("r"));
 			
 		}
 	@Test
