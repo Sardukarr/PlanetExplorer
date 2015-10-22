@@ -49,4 +49,14 @@ public class TestPlanetExplorer {
 			assertEquals("(1,0,N)",exp.executeCommand("f"));
 			
 		}
+	@Test
+	public void MovingBacwardAfter2Turns() {
+			//Arrange
+			
+			//Act
+		
+			//Assert
+			assertEquals("(1,0,N)",exp.executeCommand("rrb"));
+			
+		}
 }

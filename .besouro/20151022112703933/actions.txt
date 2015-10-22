@@ -148,3 +148,17 @@ UnitTestCaseAction 1445506517537 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445506517537 TestPlanetExplorer FAIL
 RefactoringAction 1445506566289 PlanetExplorer.java ADD void forward() METHOD
 EditAction 1445506681668 PlanetExplorer.java 2574 6 11 0
+UnitTestCaseAction 1445506681974 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506681974 TestPlanetExplorer OK
+RefactoringAction 1445506689623 TestPlanetExplorer.java ADD void MovingForward()/2 METHOD
+RefactoringAction 1445506697136 TestPlanetExplorer.java RENAME MovingForward()/2=>void Movingback() METHOD
+RefactoringAction 1445506698650 TestPlanetExplorer.java RENAME Movingback()=>void Moving() METHOD
+RefactoringAction 1445506699664 TestPlanetExplorer.java RENAME Moving()=>void MovingB() METHOD
+RefactoringAction 1445506702178 TestPlanetExplorer.java RENAME MovingB()=>void MovingBack() METHOD
+RefactoringAction 1445506704192 TestPlanetExplorer.java RENAME MovingBack()=>void MovingBacwor() METHOD
+RefactoringAction 1445506707206 TestPlanetExplorer.java RENAME MovingBacwor()=>void MovingBacward() METHOD
+RefactoringAction 1445506712222 TestPlanetExplorer.java RENAME MovingBacward()=>void MovingBacwardAfter() METHOD
+RefactoringAction 1445506722373 TestPlanetExplorer.java RENAME MovingBacwardAfter()=>void MovingBacwardAfter4() METHOD
+RefactoringAction 1445506724886 TestPlanetExplorer.java RENAME MovingBacwardAfter4()=>void MovingBacwardAfter4Turns() METHOD
+RefactoringAction 1445506761925 TestPlanetExplorer.java RENAME MovingBacwardAfter4Turns()=>void MovingBacwardAfter2Turns() METHOD
+EditAction 1445506778823 TestPlanetExplorer.java 1034 5 5 5
