@@ -250,3 +250,24 @@ RefactoringAction 1445507754083 TestPlanetExplorer.java RENAME F()=>void Fac() M
 RefactoringAction 1445507755099 TestPlanetExplorer.java RENAME Fac()=>void Facing() METHOD
 RefactoringAction 1445507761617 TestPlanetExplorer.java RENAME Facing()=>void FacingObstacle() METHOD
 EditAction 1445507901548 TestPlanetExplorer.java 1642 9 9 9
+UnitTestCaseAction 1445507901851 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445507901851 TestPlanetExplorer FAIL
+RefactoringAction 1445508114273 PlanetExplorer.java ADD struct Member FIELD
+RefactoringAction 1445508121287 PlanetExplorer.java REMOVE Member FIELD
+RefactoringAction 1445508233430 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1445508510035 PlanetExplorer.java ADD ArrayList ObstaclesX FIELD
+RefactoringAction 1445508548601 PlanetExplorer.java REMOVE ObstaclesX FIELD
+RefactoringAction 1445508569139 PlanetExplorer.java ADD List<Frame> frames FIELD
+RefactoringAction 1445508574160 PlanetExplorer.java RENAME frames=>List<Frame> ObstaclesX FIELD
+RefactoringAction 1445508582181 PlanetExplorer.java REMOVE ObstaclesX FIELD
+RefactoringAction 1445508736768 PlanetExplorer.java ADD int obstaclesX FIELD
+RefactoringAction 1445508759364 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445508761383 PlanetExplorer.java RENAME obstaclesX/2=>int FIELD
+RefactoringAction 1445509571230 PlanetExplorer.java ADD boolean v FIELD
+RefactoringAction 1445509572250 PlanetExplorer.java REMOVE v FIELD
+RefactoringAction 1445509581290 PlanetExplorer.java ADD boolean checkForObstacles FIELD
+RefactoringAction 1445509586311 PlanetExplorer.java RENAME checkForObstacles=>boolean checkForObstacles() METHOD
+RefactoringAction 1445509820643 PlanetExplorer.java ADD String f FIELD
+RefactoringAction 1445509822166 PlanetExplorer.java RENAME f=>String found FIELD
+RefactoringAction 1445509824188 PlanetExplorer.java RENAME found=>String foundObstacles FIELD
+EditAction 1445509911693 PlanetExplorer.java 3662 9 18 0

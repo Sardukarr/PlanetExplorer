@@ -1,12 +1,23 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.unioulu.tol.sqat.bsc.Frame;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
+
+
+
 public class PlanetExplorer {
 	int posX;
 	int posY;
 	char face;
+	int obstaclesX[];
+	int obstaclesY[];
+	String foundObstacles;
 	//public enum directions{
 	//	N(1),E(2),S(3),W(4);
 		// private int value;
@@ -25,6 +36,16 @@ public class PlanetExplorer {
 	posX=0;
 	posY=0;
 	face='N';
+	
+	//String[] splitedObstacles = null;
+	//splitedObstacles = obstacles.split(")");
+	for(int i=1;i>obstacles.length();i++)
+		{
+		 if(obstacles.charAt(i-1)=='(')
+			 obstaclesX[i]=0+obstacles.charAt(i);
+		 if(obstacles.charAt(i-1)==',')
+			 obstaclesY[i]=0+obstacles.charAt(i);
+		}
 	}
 	
 	public String executeCommand(String command){
@@ -129,6 +150,8 @@ public class PlanetExplorer {
 		{
 		case 'N': 
 			posX--;
+			if(checkForObstacles())
+				
 			break;
 		case 'E':
 			posY--;
@@ -149,5 +172,17 @@ public class PlanetExplorer {
 		if(posY<0)
 		{posY=posY+100;}
 	}
+	
+	private boolean checkForObstacles()
+	{
+		for(int i=0;i>obstaclesX.length;i++)
+			if(posX==obstaclesX[i] && posY==obstaclesY[i])
+				{
+				//	foundObstacles=foundObstacles+
+				return true;
+				}
+		return false;
+	}
+	
 }
 
